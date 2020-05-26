@@ -9,7 +9,7 @@ import (
 
 func main() {
     var countdown int
-    flag.IntVar(&countdown, "c", 5, "Define the break. Default is 5s.")
+    flag.IntVar(&countdown, "c", 60, "Define the break. The unit for time is the second. Default is 60s.")
     flag.Parse()
     ticker := time.NewTicker(time.Second)
     for i := 0; i < countdown; i++ {
