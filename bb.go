@@ -4,18 +4,14 @@ import (
     "flag"
     "fmt"
     "os/exec"
-    "time"
+    "github.com/vjyq/brainbreak/ticker"
 )
 
 func main() {
     var countdown int
     flag.IntVar(&countdown, "c", 60, "Define the break. The unit for time is the second. Default is 60s.")
     flag.Parse()
-    ticker := time.NewTicker(time.Second)
-    for i := 0; i < countdown; i++ {
-        <-ticker.C
-    }
-    ticker.Stop()
+    ticker.Tick(countdown)
     cmd := exec.Command("/usr/bin/say", "Time's up.")
     _, err := cmd.Output()
     if err != nil {
