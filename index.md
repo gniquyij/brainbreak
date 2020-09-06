@@ -4,7 +4,7 @@ Once noticed I can't focus, I would set a timer then ask myself to get something
 I failed to find an explicit timer in MacOS by default. 
 Reminders, Calendar, etc. could be choices but timer is not their main feature.
 I could also use a 3rd party application, a real timer, or phone, but in most cases I am lazy to interact with them, which always require more than 3 steps for a timer setup. 
-So I wrote [brainbreak](https://github.com/vjyq/brainbreak). 
+So I wrote [brainbreak](https://github.com/gniquyij/brainbreak). 
 
 brainbreak makes me set a timer via command line in one step:
 ```
@@ -18,8 +18,8 @@ The output is the process id. brainbreak process would run in detached and there
 $ bb -c <your-interval> &
 ```
 
-The interval unit is the second. To get brainbreak, see [README](https://github.com/vjyq/brainbreak). 
+The interval unit is the second. To get brainbreak, see [README](https://github.com/gniquyij/brainbreak). 
 
-<div><a href="https://vjyq.github.io/daily"><img src="https://github.com/vjyq/vjyq.github.io/blob/master/avatar.png?raw=true" style="float:right;width:85px;height:85px"/></a></div><div style="border-top:1px solid #e1e4e8;padding-top:16px"></div>
+<div><a href="https://gniquyij.github.io/daily"><img src="https://github.com/gniquyij/gniquyij.github.io/blob/master/avatar.png?raw=true" style="float:right;width:85px;height:85px"/></a></div><div style="border-top:1px solid #e1e4e8;padding-top:16px"></div>
 <div>© 2018-2020 by YUQING JI</div>
-<div style="padding-top:0.3em"><a href="https://vjyq.github.io/en/about">About</a> | <a href="https://vjyq.github.io/">Blog</a> | <a href="mailto:yuqing.ji@outlook.com">Email</a> | <a href="https://github.com/vjyq">Github</a> | <a href="https://vjyq.github.io/zh">中文</a></div>
+<div style="padding-top:0.3em"><a href="https://gniquyij.github.io/en/about">About</a> | <a href="https://gniquyij.github.io/">Blog</a> | <a href="mailto:yuqing.ji@outlook.com">Email</a> | <a href="https://github.com/gniquyij">Github</a> | <a href="https://gniquyij.github.io/zh">中文</a></div>
